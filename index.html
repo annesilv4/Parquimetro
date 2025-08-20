@@ -10,6 +10,45 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
+    <section>
+      <h1>Parquímetro</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">Escolha o valor e o tempo de acordo com a tabela</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Valor</th>
+            <th>Tempo</th>
+          </tr>
+          <tr>
+            <td>R$ 1,00</td>
+            <td>30 min</td>
+          </tr>
+          <tr>
+            <td>R$ 1,75</td>
+            <td>60 min (1 hora)</td>
+          </tr>
+          <tr>
+            <td>R$ 3,00</td>
+            <td>120 min (2 horas)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="time">Tempo: 00:00:00</h2>
+
+      <input type="number" id="valorParquimetro" placeholder="Digite o valor" />
+      <input type="number" id="tempoParquimetro" placeholder="Digite o tempo" />
+
+      <button id="enviar">Enviar</button>
+
+      <p id="troco">Troco: R$ 0,00</p>
+    </section>
+
     <!-- JS -->
     <script src="./JS/script.js"></script>
   </body>
