@@ -95,8 +95,10 @@ input {
     background: #00ccff;
 }
 
-#troco {
+#resultado {
     display: none;
+    padding-right: 10px;
+    text-align: center;
     margin-top: 15px;
     color: #000000;
     font-size: 1.2rem;
