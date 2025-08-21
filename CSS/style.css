@@ -81,7 +81,7 @@ input {
     margin-bottom: 25px;
 }
 
-#enviar {
+#btn {
     background: #a6e9f9;
     font-size: 1rem;
     width: 25%;
@@ -91,7 +91,7 @@ input {
     border-radius: 5px;
 }
 
-#enviar:hover {
+#btn:hover {
     background: #00ccff;
 }
 
